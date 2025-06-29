@@ -37,7 +37,7 @@ const Home: React.FC = () => {
       </Helmet>
       
       {/* Hero Section */}
-      <div className="text-center mb-12 py-15 mt-20 mb-20">
+      <div className="text-center py-15 mt-20 mb-20">
         <h1 className="text-4xl font-bold text-gray-900 mb-3">
           Welcome to <span className="text-blue-600">BlogCraft</span>
         </h1>
