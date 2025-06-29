@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
       <Navigation />
-      <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-20 mt-14">
+      <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/admin" element={<Admin />} />
